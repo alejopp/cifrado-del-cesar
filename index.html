@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrador Cesar</title>
+    <link href="index.css" rel="stylesheet " />
+</head>
+<body>
+    <!-- <p>El cifrado César recibe su nombre en honor a Julio César, que, según Suetonio, lo usó con un desplazamiento de tres espacios para proteger sus mensajes importantes de contenido militar:</p> -->
+
+    <main>
+        <h1>Cifrador Cesar.</h1>
+        <form id="cifrador" autocomplete="off">
+            <textarea  id="input-original" spellcheck="false" placeholder="Pega aquí tú código y presiona el botón Enviar" type="text" name="text"></textarea>
+            <textarea readonly id="resultado"></textarea>
+            <div class="buttonHolder">
+                <button class="favorite styled" onclick="descifrate()" type="button">Enviar</button>
+            </div>
+        </form>
+    </main>
+    <script src="index.js" type="text/javascript" defer></script>
+</body>
